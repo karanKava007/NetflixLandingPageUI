@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: #000;
+   
+    color: #fff;
+}
+.d-flex{
+    display: flex;
+}
+.jus-eve
+{
+    justify-content: space-evenly;
+}
+.jus-bet{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.jus-cen{
+    justify-content: center;
+}
+.d-b{
+    display: block;
+}
+.net-Box{
+    background-color: transparent;
+    width: 100%;
+    padding: 0 10px;
+    height: 100px;
+    position: absolute;
+    z-index: 2;
+}
+.net-Logo img{
+    width: 130px;
+    margin: 0 40px;
+}
+.net-Button select{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 4px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+option{
+    color: #000;
+    background-color: #ccc;
+}
+.net-Button button{
+    background-color: red;
+    color: #fff;
+    border: 1px solid red;
+    padding: 5px 10px;
+    font-size: 18px;
+    margin: 0 30px;
+    border-radius: 5px;
+}
+.bg-Image{
+    height: 700px;
+    width: 100%;
+    
+    /* background-position: center; */
+    background-size:auto;
+    background: radial-gradient(rgba(29, 29, 29, 0.6),rgba(0,0,0,0.9)), 
+    url(../Images/netflix-image.jpg);
+    justify-content: center;
+    border-bottom: 10px groove #777;
+    background-repeat:repeat;
+    
+    
+}
+.movePart{
+   z-index: 2;
+   background-color: transparent;
+   opacity: 1;
+   text-align: center;
+}
+.movePart h1{
+    font-size: 3.125rem;
+    font-weight: 500;
+}
+.movePart h3{
+    font-size: 1.625rem;
+    margin: 1rem auto;
+}
+.movePart p{
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+.input-Part input{
+    height: 40px;
+    width: 70%;
+    padding: 29px 30px;
+    font-size: 25px;
+    border-radius: 4px 0px 0px 4px;
+}
+.input-Part input:focus{
+    outline: none;
+}
+
+.input-Part input::placeholder{
+    color: #ccc;
+    font-size: 20px;
+}
+.input-Part button{
+    transition: 0.3s;
+    height: 60px;
+    width: 30%;
+    background-color: rgb(223, 2, 2);
+    padding: 10px 10px;
+    font-size: 26px;
+    color: #fff;
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+    text-align: center;
+}
+.input-Part button:hover{
+    background-color: red;
+}
+.input-Part i{
+    font-size: 20px;
+    margin: 0 5px;
+}
+/* Plan Content */
+.container{
+    background-color: transparent;
+    margin: 0 auto;
+    padding: 50px 40px;
+    height: 400px;
+    min-width: 1140px;
+    width: auto;
+    /* border-top:10px groove #777; */
+    border-bottom:10px groove rgb(75, 75, 75);
+    height: auto;
+   
+}
+
+.content{
+    margin: 20px 60px;
+    position: relative;
+}
+.content h1{
+    font-size: 54px;
+    font-weight: 600;
+}
+.content h3{
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: 400;
+    color: #777;
+    margin: 10px 0;
+}
+.content video{
+    position: absolute;
+    top: 79px;
+    left: 69px;
+    width: 357px;
+    z-index: -1;
+}
+.content img{
+    width: 500px;
+    z-index: 2;
+}
+.second .container{
+    background-color: transparent;
+}
+.second .container .content1 .img{
+    width: 500px;
+}
+.second .container .content1 
+{   
+    text-align: left;
+    margin: 20px 60px;
+    position: relative;
+
+}
+.second .container .content1 .texts h1{
+    font-weight: 700;
+    font-size: 38px;
+}
+.second .container .content1 h3{
+    font-weight: 500;
+    font-size: 25px;
+    color: #777;
+    margin: 10px 0;
+}
+.Download{
+    border: 3px solid rgb(68, 68, 68);
+    position: absolute;
+    bottom: 12px;
+    left: 64px;
+    background-color: #000;
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+.anim{
+    background: url(../Images/download-icon.gif);
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Download img{
+    width: auto;
+    height: 4.5em;
+}
+.MovieName
+{   
+    margin: 0 30px;
+}
+.Download .MovieName h4{
+    color: #0071eb
+}
+.Download .MovieName h2{
+    font-size: 20px;
+}
+.third h1{
+    font-size: 50px;
+}
+.third video{
+    position: absolute;
+    width: 300px;
+    top: 29px;
+    left: 105px;
+}
+/* Que Tab */
+.question-Tab h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;    
+}
+.QueAll .container{
+    background-color: transparent;
+    height: auto;
+    width: 100%;  
+    border-bottom:none;  
+}
+.Que , .Ans{
+    background-color: rgba(255,255,255,0.2);
+    color: #fff;
+    padding: 0px 30px;
+    font-size: 20px;
+    width: 800px;
+    height: 80px;
+}
+.m-div{
+    margin: 10px 0;
+}
+.Ans{
+    height: auto !important;
+    display: none;
+    padding: 30px 40px;
+    margin-top: 2px;
+}
+
+.Que h1{
+    font-weight: 400;
+}
+.Ans p{
+    margin: 30px 0;
+    font-size: 30px;
+}
+.container .Extra .m-div .Que i{
+    font-size: 25px;
+}
+#Que1Icon2,
+#Que2Icon2,
+#Que3Icon2,
+#Que4Icon2,
+#Que5Icon2,
+#Que6Icon2{
+    display: none;
+}
+.Input2{
+    margin: -82px auto;
+}
+.Input2 input{
+    width: 500px;
+}
+.Input2 button{
+    width: 300px;
+}
+.Input2 p{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.bn{
+    border: none;
+}
+.Net-Foot{
+    background-color: #000;
+    margin-top:100px ;
+}
+.cols{
+    width: 200px;
+    padding: 10px 20px;
+    text-align: left;
+    margin: 0 10px;
+}
+li{
+    list-style: none;
+    margin: 16px 0;
+}
+.Net-Foot .cols ul li a{
+    color: #777;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 30px 0;
+    transition: 0.6s;
+}
+.Net-Foot .cols ul li a:hover{
+    color: #fff;
+    font-size: 15px;
+}
+.FooterSelect{
+    width: 120px;
+    height: 50px;
+    background-color: #000;
+    color: #777;
+    border-radius: 0px;
+    border: 1px solid #777;
+    font-size: 20px;
+    padding: 5px 15px;
+}
+.jus-st{
+    justify-content: flex-start;
+}

@@ -1,0 +1,18 @@
+@media screen and (max-width: 400px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .Bot{
+        flex-direction: column;
+        text-align: center;
+    }
+    .content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .texts{
+        text-align: center;
+    }
+}
